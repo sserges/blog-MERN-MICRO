@@ -1,3 +1,11 @@
-export default function App() {
-  return <div>App</div>
+import PostCreate from './PostCreate'
+
+const App = () => {
+  return (
+    <div className='container'>
+      <PostCreate />
+    </div>
+  )
 }
+
+export default App

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "dev": "concurrently \"nodemon index.js\" \"npm start --prefix ../client \" \"npm start --prefix ../comments\" "
+    "dev": "concurrently \"nodemon index.js\" \"npm start --prefix ../comments\" \"npm start --prefix ../event-bus\"  \"npm start --prefix ../client \""
   },
   "keywords": [],
   "author": "",
